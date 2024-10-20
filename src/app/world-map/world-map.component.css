@@ -1,0 +1,25 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 10%;
+  max-width: 100%;
+}
+
+.countryDetails {
+  text-align: center;
+  background-color: #FBEEAC;
+  border-radius: 25px;
+  width: 24%;
+}
+
+path {
+  fill: darkslateblue;
+  stroke: darkslategray;
+}
+
+path:hover {
+  fill: darkred;
+  stroke: black;
+}
